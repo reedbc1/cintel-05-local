@@ -17,3 +17,10 @@
 - Open a terminal in the project directory
 - Enter shiny run --reload --launch-browser dashboard/app.py
 - Open a browser to http://127.0.0.1:8000/ and test the app.
+
+### Export to docs folder
+  .venv\Scripts\Activate
+  shiny static-assets remove
+  shinylive export dashboard docs
+  py -m http.server --directory docs --bind localhost 8008
+Open a browser to http://[::1]:8008/ and test the Pages app.
