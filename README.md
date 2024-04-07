@@ -8,7 +8,7 @@
 - Open a terminal, making sure that the directory is the repo directory.
 - Enter python -m venv .venv
 ### Activating environment
-- Enter venv\Scripts\activate
+- Enter .venv\Scripts\activate
 - **Do this every time you open this folder in a fresh workspace.**
 ### Installing dependencies
 - Enter pip install -r requirements.txt  
