@@ -13,3 +13,7 @@
 ### Installing dependencies
 - Enter pip install -r requirements.txt  
 - This only needs to be done once for the virtual environment.
+## Running PyShiny Locally
+- Open a terminal in the project directory
+- Enter shiny run --reload --launch-browser dashboard/app.py
+- Open a browser to http://127.0.0.1:8000/ and test the app.
