@@ -9,7 +9,7 @@
 - Enter python -m venv .venv
 ### Activating environment
 - Enter venv\Scripts\activate
-- **Do this every time you open a fresh workspace.**
+- **Do this every time you open this folder in a fresh workspace.**
 ### Installing dependencies
 - Enter pip install -r requirements.txt  
 - This only needs to be done once for the virtual environment.
