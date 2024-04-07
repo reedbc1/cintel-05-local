@@ -12,22 +12,7 @@ from shiny.express import ui
 import random
 from datetime import datetime
 
-# --------------------------------------------
-# Import icons as you like
-# --------------------------------------------
-
+# Import icons
 from faicons import icon_svg
 
-# --------------------------------------------
-# FOR LOCAL DEVELOPMENT
-# --------------------------------------------
 
-# Add all packages not in the Std Library
-# to requirements.txt:
-#
-# faicons
-# shiny
-# shinylive
-# 
-# And install them into an active project virtual environment (usually in .venv)
-# --------------------------------------------
