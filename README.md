@@ -6,7 +6,7 @@
 - Select folder you would like to save the repository to.  
 ### Creating virtual environment
 - Open a terminal, making sure that the directory is the repo directory.
-- Enter 'virtualenv .venv'
+- Enter 'python -m venv .venv'
 ### Activating environment
 - Enter 'venv\Scripts\activate'  
 ### Installing dependencies
